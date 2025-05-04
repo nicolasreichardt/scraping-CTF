@@ -1,6 +1,6 @@
 ## Overview
 
-This repository contains a Python script developed to uncover hidden flags as part of a Capture The Flag (CTF) competition in the context of the Hertie Workshop on "Python Bots and Scrapers." A total of 63 flags were discovered, and the first three levels have been successfully completed.
+This repository contains a Python script developed to uncover hidden flags as part of a Capture The Flag (CTF) competition in the context of the Hertie Workshop on "Python Bots and Scrapers." A total of 60 flags were discovered, and the first three levels have been successfully completed.
 
 ## Requirements
 
