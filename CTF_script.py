@@ -29,7 +29,9 @@ if __name__ == "__main__":
 
             for val in values:
                 if isinstance(val, str) and "flag-" in val:
-                    flag_level1.append(val)
+                    # Check if the flag is not already in the list
+                    if val not in flag_level1:
+                        flag_level1.append(val)
 
     # Extract the flags
     print("\nFlags Level 1:\n")
