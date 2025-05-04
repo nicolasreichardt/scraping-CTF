@@ -1,13 +1,13 @@
 ## Overview
 
-This repository contains a python script designed to find the flags for the Hertie Workshop "Python Bots and Scrapers". 
-A total of XXX flags were found...
-XXX levels were completed.
+This repository contains a Python script developed to uncover hidden flags as part of a Capture The Flag (CTF) competition in the context of the Hertie Workshop on "Python Bots and Scrapers." A total of 63 flags were discovered, and the first three levels have been successfully completed.
 
 ## Requirements
 
 - Python 3.7+
 - Required Python packages listed in `requirements.txt`
+- Functioning Selenium: correct version Chrome and ChromeDriver, ChromeDriver accessible from your system's PATH
+
 
 ## How to run the script
 
@@ -28,19 +28,16 @@ XXX levels were completed.
    pip install -r requirements.txt
    ```
 
-
 4. Run the main script:
-
-```bash
-python CTF_script.py
-```
-
+    ```bash
+    python CTF_script.py
+    ```
 
 ## Project Structure
 
 ```
 scraping-ctf/
-├── CTF_script.py          # Main script for CTF challenges
+├── CTF_script.py          # Main script for CTF challenge
 ├── README.md              # This file
 └── requirements.txt       # Python dependencies
 ```
